@@ -1,0 +1,41 @@
+{
+  "name": "cosplay",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "errorhandler": "^1.1.1",
+    "less": "^2.5.1",
+    "loopback": "^2.14.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-connector-mongodb": "^1.13.0",
+    "loopback-datasource-juggler": "^2.19.0",
+    "material-ui": "^0.10.4",
+    "react": "^0.13.3",
+    "react-tap-event-plugin": "^0.1.7",
+    "serve-favicon": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "jshint": "^2.5.6",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "cosplay"
+}
